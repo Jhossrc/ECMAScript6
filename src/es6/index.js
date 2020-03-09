@@ -93,3 +93,26 @@ obj = { name: name, age: age };
 // es6
 obj2 = { name, age };
 console.log(obj2);
+
+// Funciones de flecha
+
+const names = [
+    { name: 'Jose', age: 21 },
+    { name: 'Raul', age: 20 },
+]
+
+let listOfNames = names.map(function(item) {
+    console.log(item.name);
+})
+
+let listOfNames2 = names.map(({ name }) => console.log(name));
+
+/* const listOfNames3 = (name, age, country) => {
+    //...
+} */
+
+/* const listOfNames4 = name => {
+    //...
+}; */
+
+const square = num => num * num;
