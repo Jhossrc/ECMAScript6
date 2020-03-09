@@ -29,7 +29,7 @@ let epicPhrase2 = `${hello} ${world}`;
 
 // Mutilinea
 
-let lorem = "Aprendiendo ECMAScript con el profesor Oscar en Platzi. Es un excelente curso YEAH \n" + " " + " Tomaré más cursos de este profesor."
+let lorem = "Aprendiendo ECMAScript con el profesor Oscar en Platzi. Es un excelente curso YEAH \n" + "Tomaré más cursos de este profesor."
 
 //es6
 let lorem2 = `El curso de Git en Platzi es muy increíble, todos deberían tomarlo.
@@ -37,3 +37,20 @@ El profesor Freddy explica muy bien.`;
 
 console.log(lorem);
 console.log(lorem2);
+
+
+// Desestructuración
+
+let person = {
+    'name': 'Jose',
+    'age': 21,
+    'country': 'PE'
+}
+
+console.log(person.name, person.age);
+
+//es6
+
+let { name, age } = person;
+
+console.log(name, age);
