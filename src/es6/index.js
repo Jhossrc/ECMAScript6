@@ -16,3 +16,11 @@ function newFunction2(name = 'Jose', age = 21, country = 'PE') {
 
 newFunction2();
 newFunction2('Ricardo', '23', 'CO')
+
+// Concatenación
+
+let hello = "Hello";
+let world = "World";
+let epicPhrase = hello + ' ' + world;
+console.log(epicPhrase);
+let epicPhrase2 = `${hello} ${world}`;
