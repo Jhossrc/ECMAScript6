@@ -116,3 +116,20 @@ let listOfNames2 = names.map(({ name }) => console.log(name));
 }; */
 
 const square = num => num * num;
+
+// PROMESAS
+
+const helloPromise = () => {
+    return new Promise((resolve, reject) => {
+        if (true) {
+            resolve('HEY!');
+        } else {
+            reject('UPS!!');
+        }
+    });
+}
+
+helloPromise()
+    .then(console.log)
+    .then(() => console.log('Funciona'))
+    .catch(error => console.log(error))
