@@ -23,4 +23,17 @@ let hello = "Hello";
 let world = "World";
 let epicPhrase = hello + ' ' + world;
 console.log(epicPhrase);
+// es6
 let epicPhrase2 = `${hello} ${world}`;
+
+
+// Mutilinea
+
+let lorem = "Aprendiendo ECMAScript con el profesor Oscar en Platzi. Es un excelente curso YEAH \n" + " " + " Tomaré más cursos de este profesor."
+
+//es6
+let lorem2 = `El curso de Git en Platzi es muy increíble, todos deberían tomarlo.
+El profesor Freddy explica muy bien.`;
+
+console.log(lorem);
+console.log(lorem2);
