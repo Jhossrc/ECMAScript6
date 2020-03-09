@@ -63,3 +63,17 @@ let team2 = ['Valeria', 'Yesica', 'Camila'];
 let education = ['David', ...team1, ...team2];
 
 console.log(education);
+
+// var - let - const
+
+{
+    var globalVar = "Global Var";
+}
+
+{
+    let globalLet = 'Global Let';
+    console.log(globalLet);
+}
+
+console.log(globalVar);
+console.log(globalLet);
