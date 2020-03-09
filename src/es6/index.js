@@ -77,3 +77,8 @@ console.log(education);
 
 console.log(globalVar);
 console.log(globalLet);
+
+const a = 'b';
+console.log(a);
+a = 'a';
+console.log(a);
