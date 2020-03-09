@@ -76,9 +76,20 @@ console.log(education);
 }
 
 console.log(globalVar);
-console.log(globalLet);
+// console.log(globalLet);
 
 const a = 'b';
 console.log(a);
-a = 'a';
+// a = 'a';
 console.log(a);
+
+// Creación de objetos
+
+
+let name = 'Jose';
+let age = 21;
+// es5
+obj = { name: name, age: age };
+// es6
+obj2 = { name, age };
+console.log(obj2);
