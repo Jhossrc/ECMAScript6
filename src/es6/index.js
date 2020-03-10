@@ -153,3 +153,9 @@ class Calculator {
 const calc = new Calculator();
 
 console.log(calc.sum(2, 2));
+
+// Modulos
+
+import hi from './module';
+
+console.log(hi());
