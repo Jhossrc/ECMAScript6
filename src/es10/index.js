@@ -25,3 +25,14 @@ let hello = 'hello world        ';
 console.log(hello);
 
 console.log(hello.trimEnd());
+
+/* 
+
+try {
+
+} catch {
+    error
+}
+
+
+*/
