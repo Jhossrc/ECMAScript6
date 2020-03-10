@@ -14,3 +14,24 @@ const obj2 = {
 }
 
 console.log(obj2);
+
+// finally
+
+const helloWorld = () => {
+    return new Promise((resolve, reject) => {
+        if (true) {
+
+            setTimeout(() => {
+                resolve('Hello World');
+            }, 3000);
+
+        } else {
+            reject(new Error('Test Error'));
+        }
+    })
+}
+
+helloWorld()
+    .then(console.log)
+    .catch(console.log)
+    .finally(() => console.log('Finalizó'))
