@@ -133,3 +133,23 @@ helloPromise()
     .then(console.log)
     .then(() => console.log('Funciona'))
     .catch(error => console.log(error))
+
+// CLASES 
+
+class Calculator {
+    constructor() {
+        this.valueA = 0;
+        this.valueB = 0;
+    }
+
+    sum(valueA, valueB) {
+        this.valueA = valueA;
+        this.valueB = valueB;
+
+        return this.valueA + this.valueB;
+    }
+}
+
+const calc = new Calculator();
+
+console.log(calc.sum(2, 2));
